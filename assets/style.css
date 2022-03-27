@@ -1,0 +1,11 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    background-color: darkslategray;
+    color: rgb(233, 229, 204);
+    display: flex;
+}
+
+

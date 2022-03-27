@@ -6,6 +6,36 @@ header {
     background-color: darkslategray;
     color: rgb(233, 229, 204);
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
+h1 {
+    margin-left: 10px;
+    padding: 10px;
+    display: flex;
+}
 
+.nav-links {
+    margin-right: 10px;
+    padding: 10px;
+    list-style-type: none;
+    color: rgb(233, 229, 204);
+}
+
+a {
+    color: rgb(233, 229, 204);
+    text-decoration: none;
+    font-size: x-large;
+    border-style: solid;
+    border-color: rgb(233, 229, 204);
+}
+
+a:active {
+    color: rgb(233, 229, 204);
+}
+
+h2 {
+    color: darkslategray;
+    text-decoration: underline;
+}

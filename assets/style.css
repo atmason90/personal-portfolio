@@ -70,6 +70,7 @@ h3 {
 
 h4 {
     color: darkslategray;
+    margin-bottom: 10px;
 }
 
 p {
@@ -87,6 +88,7 @@ p {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-start;
+    margin: 20px;
 }
 
 .primary-project {
@@ -136,6 +138,7 @@ p {
     flex-wrap: wrap;
     justify-content: space-between;
     list-style-type: none;
+    margin: 20px;
 }
 
 .contact-li {
@@ -146,4 +149,29 @@ p {
 
 .contact-link {
     color: darkslategray;
+}
+
+@media screen and (max-width: 850px) {
+    header {
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    h2 {
+        text-align: center;
+    }
+    .project-cards {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .contact-info {
+        flex-direction: column;
+    }
+    .nav-links {
+        flex-direction: column;
+    }
 }

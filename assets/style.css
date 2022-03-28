@@ -1,6 +1,8 @@
 
 /* font-family for the entire page */
 * {
+    margin: 0;
+    padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -52,12 +54,13 @@ a:active {
 }
 
 section {
-    padding: 10px;
+    padding: 20px;
 }
 
 h2 {
     color: darkslategray;
     text-decoration: underline;
+    margin-bottom: 20px;
 }
 
 h3 {
@@ -87,13 +90,33 @@ p {
 }
 
 .primary-project {
+    position: relative;
     border-style: solid;
     border-color: darkslategray;
     border-width: 2px;
     margin: 5px;
 }
 
+.primary-project:hover {
+    transform: scale(1.02);
+}
+
+.secondary-project:hover {
+    transform: scale(1.02);
+}
+
+.primary-project img {
+    width: 415px;
+    height: 100%;
+}
+
+.secondary-project img {
+    width: 200px;
+    height: 100%;
+}
+
 .secondary-project {
+    position: relative;
     border-style: solid;
     border-color: darkslategray;
     border-width: 2px;
@@ -101,8 +124,10 @@ p {
 }
 
 .project-label { 
-    position: relative;
-    bottom: 50px;
+    display: block;
+    width: 100%;
+    position: absolute;
+    bottom: 20px;
 }
 
 .contact-info {
@@ -113,4 +138,12 @@ p {
     list-style-type: none;
 }
 
+.contact-li {
+    font-size: large;
+    margin: 10px;
+    padding: 10px;
+}
 
+.contact-link {
+    color: darkslategray;
+}

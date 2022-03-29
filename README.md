@@ -15,6 +15,7 @@ The wireframe below displays my initial thoughts on the design of this page
 ## Code examples
 
 Here is an example of of how I created labeled and linked/clickable images that navigate to my deployed projects.
+
 HTML
 ```html
 <div class="primary-project">

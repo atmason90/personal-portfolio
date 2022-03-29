@@ -21,6 +21,22 @@ Here is an example of of how I created labeled and linked/clickable images that 
     <h3 class="project-label">SITE REFACTOR</h3>
 </div>
 ```
+```css
+.primary-project {
+    position: relative;
+    border-style: solid;
+    border-color: darkslategray;
+    border-width: 2px;
+    margin: 5px;
+}
+
+.project-label { 
+    display: block;
+    width: 100%;
+    position: absolute;
+    bottom: 20px;
+}
+```
 
 Here is an example of how I used CSS flexbox to format and element of my page.
 ```css

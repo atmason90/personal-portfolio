@@ -15,12 +15,14 @@ The wireframe below displays my initial thoughts on the design of this page
 ## Code examples
 
 Here is an example of of how I created labeled and linked/clickable images that navigate to my deployed projects.
+HTML
 ```html
 <div class="primary-project">
     <a href="https://atmason90.github.io/site-refactor/" target="_blank"><img src="https://www.webdevelopersnotes.com/wp-content/uploads/create-a-simple-home-page.png" alt="generic-website"></a>
     <h3 class="project-label">SITE REFACTOR</h3>
 </div>
 ```
+CSS
 ```css
 .primary-project {
     position: relative;
